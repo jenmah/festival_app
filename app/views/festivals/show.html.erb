@@ -1,0 +1,11 @@
+<h1>testing show page!</h1>
+
+<div class="festival-info">
+  <h3><%= @festival.name %></h3>
+  <%= image_tag(@festival.image, width: 200) %>
+  <h4><%= @festival.location %></h4>
+  <h4><%= @festival.start_date %></h4>
+  <h4><%= @festival.end_date %></h4>
+  <h4>$<%= @festival.ticket_price %></h4>
+  <h4><%= @festival.main_headliner %></h4>
+</div>

@@ -1,0 +1,13 @@
+<h1>Index</h1>
+
+  <div class="festivals-list">
+    <% @festivals.each do |festival| %>
+      <div class="list-group-item">
+      <ul class="festival">
+        <li><%= link_to(festival.name, festival_path(festival.id)) %></li>
+        <li><%= link_to('DELETE', festival_path(festival.id), method: :delete) %></li>
+        <li><%= link_to('EDIT', edit_festival_path(festival.id)) %></li>
+      </ul>
+      </div>
+    <% end %>
+</div>
