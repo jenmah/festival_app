@@ -1,0 +1,38 @@
+.list-group-item {
+  display: inline-block;
+}
+
+.festivals-list {
+  text-align: center;
+}
+
+.festival {
+  width: 80%;
+  display: inline-block;
+  /*border: 1px solid blue;*/
+  margin: 0 50px;
+}
+
+ul {
+  /*border: 1px solid red;*/
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
