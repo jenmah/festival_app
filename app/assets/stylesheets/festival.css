@@ -1,16 +1,35 @@
-.list-group-item {
+/*.list-group-item {
   display: inline-block;
-}
+  border: 1px solid red;
+}*/
 
 .festivals-list {
+  text-align: center
+  border: 1px solid green;
+  margin: 0 auto;
+}
+
+.four-blocks {
   text-align: center;
 }
 
 .festival {
-  width: 80%;
+  width: 24%;
+  height: 345px;
   display: inline-block;
-  /*border: 1px solid blue;*/
-  margin: 0 50px;
+  border: 1px solid white;
+  margin: 0 -2px;
+  padding-top: 15%;
+  background-color: rgba(150, 150, 150, 1);
+  vertical-align: top;
+  background-image: url("images/coachella.jpg");
+  color: #BD0023;
+}
+
+.festival:hover {
+  /*background-color: rgba(70, 80, 173, 0.9);*/
+  background-color: #BD0023;
+  color: white;
 }
 
 ul {
@@ -25,14 +44,49 @@ a {
   text-decoration: none;
 }
 
-a:active {
+a:visited {
   text-decoration: none;
+  color: white;
 }
 
 a:hover {
-  color: black;
+  color: rgba(220, 220, 220, 1);
+}
+
+h4 {
+  font-size: 12px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+li {
+  display: inline-block;
 }
 
 h3 {
   color: black;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  color: white;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+  padding: 7px 2%;
+}
+
+nav {
+  background-color: #BD0023;
+  margin-bottom: 1.5%;
+}
+
+.festival-logos {
+  width: 70%;
 }

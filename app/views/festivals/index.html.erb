@@ -1,13 +1,12 @@
-<h1>Index</h1>
-
-  <div class="festivals-list">
+<div class="four-blocks">
+<div class="festivals-list">
     <% @festivals.each do |festival| %>
-      <div class="list-group-item">
       <ul class="festival">
-        <h3><li><%= link_to(festival.name, festival_path(festival.id)) %></li></h3>
-        <li><%= link_to('DELETE', festival_path(festival.id), method: :delete) %></li>
-        <li><%= link_to('EDIT', edit_festival_path(festival.id)) %></li>
+<!--         <%= image_tag(festival.image, class: 'festival-logos') %> -->
+        <h3><%= link_to(festival.name, festival_path(festival.id)) %></h3>
+        <h4><li><%= link_to('DELETE', festival_path(festival.id), method: :delete) %></li></h4>
+        <h4><li><%= link_to('EDIT', edit_festival_path(festival.id)) %></li></h4>
       </ul>
-      </div>
     <% end %>
+    </div>
 </div>
